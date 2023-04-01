@@ -6,7 +6,8 @@ const Sidebar = ({ readTime }) => {
   useEffect(() => {
     const readTimeFromStorage = localStorage.getItem("readTime");
     setTime(readTimeFromStorage);
-  }, [readTime]);
+    console.log(readTimeFromStorage)
+  });
 
   return (
     <div>
