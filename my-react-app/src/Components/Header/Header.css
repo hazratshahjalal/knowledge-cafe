@@ -1,19 +1,4 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  color: #000;
-  font-size: 18px;
-}
-
-.navbar_brand {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.navbar_user a {
-  margin-left: 10px;
-  color: #000;
-  text-decoration: none;
+.nav-item a {
+  font-size: 20px;
+  margin: 0 5px;
 }
