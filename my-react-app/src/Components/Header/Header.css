@@ -1,4 +1,13 @@
 .nav-item a {
+  text-decoration: none;
   font-size: 20px;
   margin: 0 5px;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
