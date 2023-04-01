@@ -1,0 +1,35 @@
+.blog-card {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.author {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.authorName {
+  display: flex;
+}
+
+.blog-poster img {
+  width: 100%;
+
+}
+
+.author img {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.readTime {
+  display: flex;
+}
+
+.blog-title {
+  margin-top: 20px;
+}
