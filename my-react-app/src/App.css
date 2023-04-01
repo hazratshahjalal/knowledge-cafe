@@ -2,3 +2,15 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+
+.main-container {
+  display: grid;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  [class*="col-1"] {
+    width: 100%;
+  }
+}

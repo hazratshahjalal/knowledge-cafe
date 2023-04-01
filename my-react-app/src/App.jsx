@@ -19,15 +19,15 @@ function App() {
       <div className="header m-auto">
         <Header></Header>
       </div>
-      <div className="main row">
+      <div className="main row main-container">
         <div className="blogs-container col-md-8">
           <Posts></Posts>
         </div>
         <div className="sidebar col-md-4 card">
           <Sidebar></Sidebar>
         </div>
-        <Question></Question>
       </div>
+      <Question></Question>
     </div>
 
   );
