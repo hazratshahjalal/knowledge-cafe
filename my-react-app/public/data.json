@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "authorName": "Mr. Raju",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "blogCoverImage": "https://images.unsplash.com/photo-1560415755-bd80d06eda60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbWluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "authorImage": "https://picsum.photos/50",
+    "readTime": 5,
+    "publishDate": "Mar 14(4 days ago)"
+  },
+  {
+    "id": 1,
+    "authorName": "Mr. Rakib",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "blogCoverImage": "https://picsum.photos/400",
+    "authorImage": "https://picsum.photos/50",
+    "readTime": 8,
+    "publishDate": "Mar 10(8 days ago)"
+  },
+  {
+    "id": 1,
+    "authorName": "Md. Hasaan",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "blogCoverImage": "https://picsum.photos/400",
+    "authorImage": "https://picsum.photos/50",
+    "readTime": 10,
+    "publishDate": "Mar 16(2 days ago)"
+  },
+  {
+    "id": 1,
+    "authorName": "Mrs. Elita",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "blogCoverImage": "https://picsum.photos/400",
+    "authorImage": "https://picsum.photos/50",
+    "readTime": 12,
+    "publishDate": "Mar 14(4 days ago)"
+  }
+]
