@@ -3,8 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import './SingleCard.css'
 
-const SingleCard = ({ blog }) => {
-  console.log(blog)
+const SingleCard = ({ blog, handleReadTime }) => {
+
+
 
   return (
     <div>
@@ -30,7 +31,7 @@ const SingleCard = ({ blog }) => {
           <div className="blog-title">
             <h2>{blog.blogTitle}</h2>
           </div>
-          <button>Mark as read</button>
+          <button onClick={() => { handleReadTime(blog.readTime) }} >Mark as read</button>
         </div>
       </div>
     </div>

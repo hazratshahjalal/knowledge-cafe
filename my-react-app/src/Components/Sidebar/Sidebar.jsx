@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-const Sidebar = () => {
+const Sidebar = ({ readTime }) => {
+  const [time, setTime] = useState(0)
+
+  useEffect(() => {
+    const readTimeFromStorage = localStorage.getItem("readTime");
+    setTime(readTimeFromStorage);
+  }, [readTime]);
+
   return (
     <div>
       <div className="readTime">
-        <p>Spent time on read: { }min</p>
+        <p>Spent time on read: {time}min</p>
       </div>
       <div className="bookmarked">
         <h3>Bookmarked Blogs { }</h3>
