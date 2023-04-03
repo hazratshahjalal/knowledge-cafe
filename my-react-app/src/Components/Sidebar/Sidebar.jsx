@@ -15,7 +15,7 @@ const Sidebar = ({ readTime }) => {
         <p>Spent time on read: {time}min</p>
       </div>
       <div className="bookmarked">
-        <h3>Bookmarked Blogs { }</h3>
+        <h3>Bookmarked Blogs {0}</h3>
         <p>{ }</p>
       </div>
     </div>
