@@ -26,7 +26,7 @@ const Sidebar = ({ readTime, bookmark }) => {
         <p>Spent time on read: {time}min</p>
       </div>
       <div className="bookmarked">
-        <h3>Bookmarked Blogs {marked}</h3>
+        <h3>Bookmarked Blogs 0{marked}</h3>
         <p>
           <ul>
             <li className='listTitle'></li>
