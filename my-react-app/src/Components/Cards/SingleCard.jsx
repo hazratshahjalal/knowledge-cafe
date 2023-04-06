@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './SingleCard.css'
 
-const SingleCard = ({ blog, handleReadTime }) => {
+const SingleCard = ({ blog, handleReadTime, handleBookmark, }) => {
 
 
 
@@ -25,7 +25,7 @@ const SingleCard = ({ blog, handleReadTime }) => {
             </div>
             <div className="readTime">
               <p>{blog.readTime} min to read</p>
-              <FontAwesomeIcon icon={faBookmark} />
+              <button onClick={() => handleBookmark(blog.id)}> <FontAwesomeIcon icon={faBookmark} /></button>
             </div>
           </div>
           <div className="blog-title">
